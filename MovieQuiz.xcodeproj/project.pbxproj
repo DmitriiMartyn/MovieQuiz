@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9530DEC42BC0527500DCC125 /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9530DEC12BC0527500DCC125 /* YS Display-Bold.ttf */; };
-		9530DEC52BC0527500DCC125 /* YS Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9530DEC22BC0527500DCC125 /* YS Display-Medium.ttf */; };
+		9530DEC62BC1B17E00DCC125 /* YS Display-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9530DEC12BC0527500DCC125 /* YS Display-Bold.ttf */; };
+		9530DEC72BC1B18600DCC125 /* YS Display-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9530DEC22BC0527500DCC125 /* YS Display-Medium.ttf */; };
 		AD1ABAB22831907B00B3E448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABAB12831907B00B3E448 /* AppDelegate.swift */; };
 		AD1ABAB42831907B00B3E448 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABAB32831907B00B3E448 /* SceneDelegate.swift */; };
 		AD1ABAB62831907B00B3E448 /* MovieQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1ABAB52831907B00B3E448 /* MovieQuizViewController.swift */; };
@@ -191,9 +191,9 @@
 			files = (
 				AD1ABABE2831907F00B3E448 /* LaunchScreen.storyboard in Resources */,
 				AD1ABABB2831907F00B3E448 /* Assets.xcassets in Resources */,
+				9530DEC62BC1B17E00DCC125 /* YS Display-Bold.ttf in Resources */,
 				AD1ABAB92831907B00B3E448 /* Main.storyboard in Resources */,
-				9530DEC42BC0527500DCC125 /* YS Display-Bold.ttf in Resources */,
-				9530DEC52BC0527500DCC125 /* YS Display-Medium.ttf in Resources */,
+				9530DEC72BC1B18600DCC125 /* YS Display-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +357,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B8WQPVR2X;
@@ -387,6 +389,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_ASSET_SYMBOLS = YES;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6B8WQPVR2X;
