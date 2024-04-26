@@ -118,9 +118,9 @@
                     <connections>
                         <outlet property="counterLabel" destination="Wes-DW-iwR" id="fFe-q7-IOK"/>
                         <outlet property="imageView" destination="YF0-yt-iET" id="Aam-9z-WYy"/>
-                        <outlet property="noButton" destination="MIX-sa-m4E" id="yMS-Ns-NGw"/>
+                        <outlet property="noButtonClicked" destination="MIX-sa-m4E" id="aRN-9l-Wbw"/>
                         <outlet property="textLabel" destination="i0K-Pg-GFg" id="TTA-wb-BYD"/>
-                        <outlet property="yesButton" destination="O5g-zE-326" id="ZrA-lQ-Jns"/>
+                        <outlet property="yesButtonClicked" destination="O5g-zE-326" id="coa-gj-gDS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -130,7 +130,7 @@
     </scenes>
     <resources>
         <namedColor name="YP Black">
-            <color red="0.10199999809265137" green="0.10599999874830246" blue="0.13300000131130219" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.10196078431372549" green="0.10588235294117647" blue="0.13333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="YP White">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
