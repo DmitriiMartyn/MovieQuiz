@@ -1,5 +1,5 @@
 import UIKit
-final class MovieQuizViewController: UIViewController {
+final class MovieQuizViewController: UIViewController, MovieQuizViewControllerProtocol {
     
     private var presenter: MovieQuizPresenter!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -71,7 +71,10 @@ final class MovieQuizViewController: UIViewController {
        func hideLoadingIndicator() {
            activityIndicator.isHidden = true
        }
-
+        func blockButton(isBlocked: Bool) {
+        noButtonClicked.isEnabled = isBlocked ? false : true
+        yesButtonClicked.isEnabled = isBlocked ? false : true
+        }
        func showNetworkError(message: String) {
            hideLoadingIndicator()
 
